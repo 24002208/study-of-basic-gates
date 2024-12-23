@@ -64,16 +64,45 @@ Y= A⊕B
 
 **PROGRAM**
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
+input a, b;
 
- Developed by: RegisterNumber: 
+ output c1, c2, c3, c4, c5, c6, c7;
+ 
+ assign c1 = ~a;
+ 
+ assign c2 = a & b;
+ 
+ assign c3 = a | b;
+ 
+ assign c4 = ~(a & b);
+ 
+ assign c5 = ~(a | b);
+ 
+ assign c6 = a ^ b;
+ 
+ assign c7 = ~(a ^ b);
+
+ Developed by: S.Dhamini
+ 
+ RegisterNumber: 24002208
  
 **Logic symbol & Truthtable**
 
-**RTL realization Output:** 
+![WhatsApp Image 2024-11-12 at 14 18 06_76427b9b](https://github.com/user-attachments/assets/a2b9621b-39d2-495d-b79f-cda8abd46e30)
+ 
 
 **RTL**
 
+![WhatsApp Image 2024-12-21 at 17 38 34_9da7b8e2](https://github.com/user-attachments/assets/d5404d52-8356-4d8e-8cf2-67bb9af70427)
+
+**OUTPUT**
+
+![WhatsApp Image 2024-12-21 at 17 39 05_40578a8c](https://github.com/user-attachments/assets/6588a5fc-3f58-4db3-a4db-e9cb856b100b)
+
+
 **Result:**
+
+The truth table of logic gates in Quartus II is verified using Verilog programming.
+
 
 
